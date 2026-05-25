@@ -6,7 +6,6 @@
 # Otherwise, return the string: "No free dessert this time."
 
 def get_delivery_offer(bill_amount: float) -> str:
-    # Write your code below this line
     if bill_amount > 500:
         return "You get a free dessert!"
     else:
